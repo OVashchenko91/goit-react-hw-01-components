@@ -1,0 +1,30 @@
+.transaction-history__item {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1px solid rgb(220, 240, 244);
+
+}
+
+.transaction-history__item:nth-child(2n) {
+    background-color: rgb(220, 240, 244);
+}
+
+.transaction-history__type {
+    box-sizing: border-box;
+    width: 210px;
+    text-align: start;
+    
+}
+
+.transaction-history__amount {
+    text-align: start;
+    width: 230px;
+}
+
+.transaction-history__currency {
+    text-align: end;
+}

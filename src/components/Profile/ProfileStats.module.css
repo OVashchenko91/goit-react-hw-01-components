@@ -1,0 +1,32 @@
+.stats {
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px lightgrey;
+}
+
+.stats__label {
+    font-size: 18px;
+    color: grey;
+    margin: 0;
+}
+
+.stats__quantity {
+    font-size: 20px;
+}
+
+.stats__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid white;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.stats__item:nth-last-of-type(1) {
+    border-right: none;
+}
