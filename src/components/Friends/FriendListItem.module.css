@@ -1,0 +1,30 @@
+.friends__item {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    width: 100%;
+    gap: 30px;
+    background-color: white;
+    box-shadow: 2px 3px 5px grey;
+}
+
+.friends__status {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.is-online {
+    background-color: green;
+}
+
+.friends__avatar {
+    border: none;
+}
+
+.friends__name {
+    font-size: 20px;
+}
