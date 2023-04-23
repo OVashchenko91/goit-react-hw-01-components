@@ -42,13 +42,6 @@ export const App = () => {
         />
       </Section>
       
-
-      
-
-      
-
-      
-
     </>
   );
 };

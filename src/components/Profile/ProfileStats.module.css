@@ -1,7 +1,7 @@
 .stats {
     display: flex;
     border-radius: 5px;
-    box-shadow: 0px 2px 5px lightgrey;
+    box-shadow: 0px 2px 5px rgb(211, 211, 211);
 }
 
 .stats__label {
@@ -21,7 +21,7 @@
     align-items: center;
     gap: 10px;
     border-right: 2px solid white;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(200, 198, 230);
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;

@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './profile.module.css';
-import { ProfileStats } from '../ProfileStats/ProfileStats';
+import { ProfileStats } from './ProfileStats';
 
 export function Profile({ 
     username = 'Anonymous', 

@@ -5,12 +5,12 @@
     padding-bottom: 10px;
     padding-right: 30px;
     padding-left: 30px;
-    border: 1px solid rgb(220, 240, 244);
+    border: 1px solid rgb(203, 233, 238);
 
 }
 
 .transaction-history__item:nth-child(2n) {
-    background-color: rgb(220, 240, 244);
+    background-color: rgb(210, 231, 165);
 }
 
 .transaction-history__type {

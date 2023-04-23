@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './statistics.module.css';
-import { StatisticItems } from '../StatisticsItems/StatisticsItems';
+import { StatisticItems } from './StatisticsItems';
 
 export function Statistics({
     stats,
