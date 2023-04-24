@@ -4,8 +4,11 @@ import { StatisticItems } from './StatisticsItems';
 
 export function Statistics({
     stats,
+    title
 }) {
     return (
+        <div>
+            {title && <h2>{title}</h2>}
             <ul className={css.stats}>
                 {stats.map(({ id, label, percentage }) => {
                     return (
@@ -13,9 +16,9 @@ export function Statistics({
                     );
                 })}
             </ul>
+        </div>
     );
-
-}; 
+};
 
 Statistics.propTypes = {
     stats: PropTypes.arrayOf(PropTypes.shape({
@@ -23,5 +26,10 @@ Statistics.propTypes = {
             PropTypes.string.isRequired,
             PropTypes.number.isRequired,
         ]),
-    }),),
+    })),
+    title: PropTypes.string
+};
+
+Statistics.defaultProps = {
+    title: ''
 };
